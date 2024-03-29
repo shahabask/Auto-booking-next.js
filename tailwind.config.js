@@ -16,6 +16,8 @@ module.exports = {
     },
     colors: {
       ...colors,
+      primary: colors.purple,
+      secondary: colors.pink,
     primary:{
       user:colors.purple,
       admin:colors.yellow,
