@@ -16,15 +16,23 @@ module.exports = {
     },
     colors: {
       ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
-      teritiary:colors.black,
-      adminPrimary:colors.white,
-      adminSecondary:colors.black,
-      adminTeritiary:colors.gray,
-      driverPrimary:colors.yellow,
-      driverSecondary:colors.white,
-      driverTeritiary:colors.black
+    primary:{
+      user:colors.purple,
+      admin:colors.yellow,
+      driver:colors.green,
+
+    },
+    secondary:{
+      user:colors.orange,
+      admin:colors.red,
+      driver:colors.pink
+    },
+    teritiary:{
+      user:colors.gray,
+      admin:colors.blue,
+      driver:colors.indigo,
+    }
+      
 
     },
   },
